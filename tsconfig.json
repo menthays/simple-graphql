@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [
+      "esnext"
+    ],
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": false,
+    "rootDir": "src/",
+    "outDir": "dist/",
+  },
+  "include": [
+    "src/**/*",
+  ]
+}
